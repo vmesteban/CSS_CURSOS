@@ -1,0 +1,24 @@
+div {
+    background-color: red;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+}
+
+div {
+    /* border-width: 5px;
+    border-color: transparent;
+    border-style: solid;*/
+    /* tamaño - estilo - color */
+
+    border-radius: 10px;
+    border: 5px solid black;
+
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: blue;
+    border-bottom-color: yellow;
+    border-bottom-width: dashed;
+
+
+}

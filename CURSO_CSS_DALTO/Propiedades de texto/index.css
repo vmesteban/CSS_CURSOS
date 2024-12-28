@@ -1,0 +1,18 @@
+p {
+    color: red;
+    font-family: 'Lucida Sans';
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.4; /*tamaño de la linea (cuanto de alto)*/
+    letter-spacing: 1px; /*espaciado de la letra*/
+    text-transform: capitalize; /* pone texto en minuscula, mayuscula o la primera letra de cada palabra en mayuscula*/
+    
+}
+
+
+span {
+    text-decoration: line-through;
+    color: brown;
+}

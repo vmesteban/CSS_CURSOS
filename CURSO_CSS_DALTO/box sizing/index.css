@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+}
+
+.box-default {
+    padding: 25px;
+    border: 10px solid black;
+}
+
+/*Esto lo que hace es que las medidas del contenido de la caja se suman. 
+Es decir, el contenido más el padding más el borde más el margen. */
+
+.box-new {
+    box-sizing: border-box;
+    padding: 25px;
+    border: 10px solid black;
+}
+
+/*La versión anterior, content-box es la que viene por defecto.*/
+/*Con esta propiedad de border-sizing, lo que hac es que el tamaño de la caja se mantiene.*/
+
