@@ -1,0 +1,46 @@
+/* SELECTORES */
+
+/*
+    Selectore Simples
+        Selectores elementales
+            Selector Universal -> *
+            Selector de tipo o etiqueta -> Nombre de la etiqueta
+                    /* * {
+                background-color: lightcoral;
+            }
+
+            h1 {
+                background-color: lightcyan;
+            }
+
+            p{
+                background-color: lightgreen;
+            }
+
+            ul {
+                background-color: red;
+            }
+
+            li {
+                background-color: blue;
+            } 
+        Selectores de atributo
+            id -> id del elemento
+            clase -> clase del elemento
+            /* #title {
+            background-color: lightgreen;
+            }
+
+            .title {
+                background-color: lightsalmon;
+            } 
+            otros atributos
+            [atributo]
+            [atributo="valor"]
+            [atributo^="valor"]
+    Selectores Compuestos
+        Selectores Agrupados
+        Selectores Combinadores
+        Pseudoclases- Pseudoelementos
+*/
+

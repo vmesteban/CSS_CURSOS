@@ -1,0 +1,93 @@
+/* SELECTORES */
+
+/*
+    Selectore Simples
+        Selectores elementales
+            Selector Universal -> *
+            Selector de tipo o etiqueta -> Nombre de la etiqueta
+                    /* * {
+                background-color: lightcoral;
+            }
+
+            h1 {
+                background-color: lightcyan;
+            }
+
+            p{
+                background-color: lightgreen;
+            }
+
+            ul {
+                background-color: red;
+            }
+
+            li {
+                background-color: blue;
+            } 
+        Selectores de atributo
+            id -> id del elemento
+            clase -> clase del elemento
+            /* #title {
+            background-color: lightgreen;
+            }
+
+            .title {
+                background-color: lightsalmon;
+            } 
+            otros atributos
+            [atributo]
+            [atributo="valor"]
+            [atributo^="valor"]
+            [atributo*="valor"]
+            [atributo$="valor"]
+
+            [href] {
+                background-color: mediumorchid;
+            }
+
+            [href="https://google.com"]{
+                background-color: orangered;
+            }
+
+            [href^="color"] {
+                background-color: red;
+            }
+
+            [href*="modo"] {
+                background-color: green;
+            }
+
+            [href$="azul"]{
+                background-color: steelblue;
+            }
+
+            [lang|="en"]{
+                background-color: magenta;
+            }
+    Selectores Compuestos
+        Selectores Agrupados -> Se agrupan los selectores
+            separacos por comas y se escribe el estilo una sola vez
+            .text,.text-2,.text-3,.text-4 {
+            background-color: steelblue;
+            }
+        Selectores Combinadores
+            Selectores descendente
+            div .title-2 {
+            background-color: teal;
+            }
+            Selector de hermano siguiente
+
+        Pseudoclases- Pseudoelementos
+*/
+
+div .title-2 {
+    background-color: teal;
+}
+
+.text-2 + h2 {
+    background-color: tomato;
+}
+
+.text-2 ~ p {
+    background-color: turquoise;
+}
