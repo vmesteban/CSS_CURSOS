@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Formularios</title>
+<link href="form.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="caracteristicas" class="col2">
+<div id="principal">
+  <div id="banner">
+    <div id="background"><p class="logo">CosmoFarmer 2.0</p>
+      <div id="nav">
+        <ul>
+          <li><a href="index.html" id="homeLink">Inicio</a></li>
+          <li><a href="/features/index.html" id="linkCaracteristicas">Tipos</a></li>
+          <li><a href="/experts/index.html" id="linkExpertos">Expertos</a></li>
+          <li><a href="/quiz/index.html" id="linkPreguntas">Preguntas</a></li>
+          <li><a href="/projects/index.html" id="linkProyectos">Proyectos</a></li>
+          <li><a href="/horoscopes/index.html" id="linkHoroscopo">Hor&oacute;scopos</a></li>
+        </ul>
+	      <br class="clear"  />
+      </div>
+      <!-- fin nav -->
+    </div>
+    <!-- fin background -->
+  </div>
+  <!-- fin banner -->
+  <div id="cuerpo">
+    <h1 id="lead"><span class="section">Reg&iacute;strate:</span> Formulario de suscripci&oacute;n</h1>
+    
+    <form id="subForm" name="subForm" method="post" action="">
+      <p><label for="nombre" class="etiq" >Nombre </label><input type="text" name="name" id="nombre" /></p>
+      <p><label for="direccion" class="etiq">Direcci&oacute;n correo-e </label><input type="text" name="email" id="email" /></p>
+      <p><span class="etiq">Nivel</span> 
+        <label><input name="nivel" type="radio" value="novice" />Principiante</label>
+        <label><input name="nivel" type="radio" value="intermediate" />Intermedio</label>
+        <label><input name="nivel" type="radio" value="advanced" />Avanzado</label>
+      </p>
+      <p>
+        <label for="referencias" class="etiq">&iquest;C&oacute;mo nos has conocido?</label>
+        <select name="refer" id="refer">
+          <option value="null">Selecciona una</option>
+          <option value="1">Amigos</option>
+          <option value="2">Internet</option>
+          <option value="3">Prensa</option>
+          <option value="4">Otros</option>
+        </select>
+      </p>
+      <p>
+        <label for="comentarios" class="etiq">Comentarios adicionales </label>
+        <textarea name="comments" cols="35" rows="4" id="comentarios"></textarea>
+      </p>
+      <p>
+        <input type="submit" name="Submit" id="suscribe" value="Suscr&iacute;bete !" />
+      </p>
+    </form>
+	  <br class="clear" />
+    <p class="privacy">P&iacute;ldoras inform&aacute;ticas sabe que tu privacidad es importante. por eso nuestros datos est&aacute;n protegidos contra el fraude. La ley de protecci&oacute;n de datos te ampara en caso de publicaci&oacute;n malintencionada de algunos de tus datos.</p>
+  </div>
+  <!-- fin prinicpal -->
+  <div id="announce">
+    <ul>
+      <li><a href="#"><span class="title">Libra: es tu mes</span>Lorem ipsum dolor site amet.</a></li>
+      <li><a href="#"><span class="title">Tu opini&oacute;n</span>Lorem ipsum dolor site amet.</a></li>
+      <li><a href="#"><span class="title">Ofertas del mes</span>Lorem ipsum dolor site amet.</a></li>
+      <li><a href="#"><span class="title">Interiores </span>Lorem ipsum dolor site amet.</a></li>
+      <li><a href="#"><span class="title">Lorem Ipsum </span>Lorem ipsum dolor site amet.</a></li>
+      <li><a href="#"><span class="title">Dolor site amet </span>Lorem ipsum dolor site amet.</a></li>
+      <li><a href="#"><span class="title">Adipiscing elit </span>Lorem ipsum dolor site amet.</a></li>
+      <li><a href="#"><span class="title">Euismod tincidunt </span>Lorem ipsum dolor site amet.</a></li>
+    </ul>
+  </div>
+  <!-- end anun -->
+</div>
+<!-- end contenedor -->
+</body>
+</html>

@@ -1,0 +1,74 @@
+/* reset css */
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+/* final reset css */
+
+body {
+	font-size: 62.5%;
+}
+#contenido {
+	margin-left: 15px;
+	margin-top: 15px;
+	border: 1px dashed #999;
+	border-right: none;
+	border-bottom: none;
+}
+
+#galeria .figura p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	text-align: center;
+	line-height: normal;
+	
+}
+
+
+h1 {
+	font: normal 2.4em Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	border-bottom: 1px dashed #999;
+	padding: 5px 0 5px 8px;
+	color: #14556b;
+}
+p {
+	font: 1.6em/160% Georgia, "Times New Roman", Times, serif;
+	margin: 10px 8px;
+}
+
+.foto img {
+	border: 1px solid black;
+	background-color: #FFF ;
+	padding: 5px;
+
+	position: relative;
+	top: -3px;
+	left: -3px;
+}
+
+.figura p {
+	font: 2em, Aria, Helvetica, sans-serif; 
+	margin: 10px 0 0 0;
+	height: 5em;
+
+}
+
+.figura {
+	float: left;
+	width: 200px;
+	margin: 0 10px 10px 10px;
+}
+
+.foto {
+	background-image: url("../imagenes/sombra.gif");
+	background-repeat: no-repeat;
+}

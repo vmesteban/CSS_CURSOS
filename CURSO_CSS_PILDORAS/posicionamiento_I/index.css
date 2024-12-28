@@ -1,0 +1,218 @@
+body {
+	font-size: 62.5%;
+	font-family: "Lucida Grande", Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, p, ul {
+	padding: 0;
+	margin: 0;
+}
+
+#contenedor {
+	border: solid 1px black;
+}
+
+#banner {
+	background: url(images/anniv_banner.png) no-repeat right top;
+}
+
+#banner ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#banner li {
+	display: inline;
+	margin-left: 10px;
+}
+
+#banner li a {
+	color: #666666;
+	text-decoration: none;
+	text-transform: uppercase;
+	font: 1.1em "Trebuchet MS";
+}
+
+.separador {
+	border-right: 1px solid #666;
+	padding-right:10px;
+}
+
+#princNav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background: url(images/bg_nav.png) repeat-x left top;
+	float: left;
+	border-bottom: 1px solid #000;
+	width: 100%;
+}
+
+#princNav li {
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+#princNav li a, #princNav li a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: .5em 1em;
+	border-right: 1px solid #000;
+	display: block;
+	font: bold 1em "Lucida Grande", Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+}
+
+#princNav li a:hover {
+	background: url(images/bg_nav_h.png);
+}
+
+#principal h1 {
+	color: #663900;
+	padding-top: 15px;
+	margin-bottom: 10px;
+	font: bold 2.3em Georgia, "Times New Roman", Times, serif;
+}
+
+#principal h2 {
+	font-size: 1.8em;
+	font-weight: normal;
+	border-bottom: 1px solid #106A9B;
+	margin-bottom: 5px;
+	color: #663900;
+}
+
+#principal p {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+
+#barralateral {
+	background-color: #D9ECFF;
+}
+
+#barralateral h2 {
+	font-size: 1.3em;
+	color: #FFFFFF;
+	padding: 7px 8px 0 8px;
+	margin-bottom: 5px;
+	border-top: 3px solid #86B500;
+	background: url(images/bg_side_head.png) repeat-x left bottom;
+}
+
+#barralateral p {
+	margin-right: 5px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	color: #666666;
+}
+
+#barralateral h3 {
+	font-size: 1.1em;
+	margin-right: 5px;
+	margin-left: 5px;
+	color: #663900;
+	margin-bottom: 3px;
+}
+
+#barralateral h3 a {
+	color: #663900;
+}
+
+#barralateral a:hover {
+	color: #CA1D07;
+}
+
+#advertencias p {
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+#pie {
+	padding: 5px;
+	border-top: 1px solid #000;
+	background-color: #86B500;
+	font-weight: bold;
+	color: #000000;
+}
+
+#banner #logobanner {
+	position: absolute;
+	left: -20px;
+	top: -5px;
+}
+
+#banner {
+	position: relative;
+}
+
+body {
+	margin: 20px;
+}
+
+#banner #logo {
+	margin: 30px;
+}
+
+#banner ul {
+	position:absolute;
+	right: 60px;
+	bottom: 5px;
+}
+
+#principal .foto {
+	float: right;
+	width: 200px;
+	margin-left: 12px;
+	margin-bottom: 2px;
+	position: relative;
+}
+
+#principal .foto p {
+	background-color: #FFF;
+	border: 1px dashed #666666;
+	font-weight: bold;
+	font-size: 13px;
+	text-align: center;
+	padding: 5px;
+
+	width: 170px;
+	left: 10px;
+	bottom: 10px;
+	position: absolute;
+}
+
+#contenidoPrincipal {
+	position: relative;
+	clear: both;
+}
+
+#barralateral {
+	position: absolute;
+	top: 15px;
+	left: 0;
+	width: 170px;
+}
+
+#advertencias {
+	position: absolute;
+	top: 15px;
+	right: 5px;
+	width: 125px;
+}
+
+#principal {
+	margin-left: 170px;
+	margin-right: 135px;
+	padding: 0 15px 15px 20px;
+	border: 1px solid #666666;
+	border-top: none;
+	border-bottom: none;
+}
+
+#contenedor {
+	position: relative;
+	width: 1300px;
+	margin: auto;
+}
