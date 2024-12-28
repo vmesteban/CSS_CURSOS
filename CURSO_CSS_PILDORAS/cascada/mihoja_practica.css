@@ -1,0 +1,81 @@
+html,body,h1,h2,h3,h4,p,ol,ul,li,pre,code,address,form,fieldset{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+ol {
+    margin-left: 1.4em;
+    list-style: decimal;
+}
+
+ul {
+    margin-left: 1.4em;
+    list-style: square;
+}
+
+img {
+    border: 0;
+}
+/* RESET CSS*/
+
+
+#principal {
+    float: left;
+    width: 580px;
+}
+
+#lateral {
+    margin-left: 600px;
+    padding: 15px;
+    background-color: #e1cdff;
+}
+
+body {
+    color: #b1967c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 100px;
+    background-color: #e1cdff; 
+    background-image: url("images/fondo_cuerpo.png");
+    background-repeat: repeat-x;
+    width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2.2em;
+    color: #600;
+    margin-bottom: 5px;
+}
+
+#principal h2 {
+    color: #e8a064;
+    border-bottom: 2px white solid;
+    background-image: url("images/flor.png");
+    background-repeat: no-repeat;
+    padding: 0 0 2px 80px;
+}
+
+#principal p {
+    color: #616161;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1em;
+    line-height: 150%;
+    margin-bottom: 10px;
+    margin-left: 80px;
+}
+
+#principal .introduccion {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    margin-left: 0px;
+    margin-bottom: 25px;
+}
